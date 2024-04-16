@@ -12,7 +12,7 @@ const MyComponent: React.FC = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://functions.yandexcloud.net/d4ev2sbriqado7skklb1', {
+      const response = await fetch('https://functions.yandexcloud.net/d4ev2sbriqado7skklb1', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
